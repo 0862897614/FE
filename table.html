@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- dung cac the thead, tbody, tfoot: cấu trúc bảng rõ ràng, hỗ trợ tìm kiếm, phân tích trang -->
+    <table>
+      <thead>
+        <tr>
+          <th>Tên Sản Phẩm</th>
+          <th>Bảng Giá</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SmartPhone 15</td>
+          <td>14.999.000.vnd</td>
+        </tr>
+        <tr>
+          <td>SmartPhone 16</td>
+          <td>29.999.000.vnd</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Tổng cộng</td>
+          <td>44.998.000.vnd</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <table>
+      <tr>
+        <th>Tên sản phẩm</th>
+        <th>Mô tả</th>
+        <th colspan="2">Size</th>
+        <!-- colspan: nhóm 2 cột thành 1 -->
+      </tr>
+      <tr>
+        <td rowspan="2">Áo phông</td>
+        <!-- rowspan: nhóm 2 dòng thành 1 -->
+        <td>199.000.vnd</td>
+        <td>S,M,L</td>
+      </tr>
+      <tr>
+        <td>Áo Thun</td>
+        <td>169.000.vnd</td>
+        <td>S,M,L</td>
+      </tr>
+      <tr>
+        <td>Áo Polo</td>
+        <td>189.000.vnd</td>
+        <td>S,M,L</td>
+      </tr>
+      <tr>
+        <td>Remark</td>
+        <td colspan="2">Thống kê sản phẩm trong kho</td>
+      </tr>
+    </table>
+  </body>
+</html>
