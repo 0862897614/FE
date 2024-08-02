@@ -1,0 +1,9 @@
+h1{
+    color: red;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;/* không cho phép select hay bôi đen 
+            trang hỗ trợ prefix: https://autoprefixer.github.io/
+            để tra cứu các thuộc tính cần prefix: caniuse.com*/
+}
