@@ -1,0 +1,49 @@
+/* không quan tâm đến kiểu loại */
+
+/* tác động lên thẻ con đầu tiên */
+p:first-child{
+    color: red;
+}
+/* tác động lên thẻ con cuối cùng */
+p:last-child{
+    color: blue;
+}
+/* tác động lên thẻ con thứ n tính từ trên xuống */
+p:nth-child(2){ 
+    /* có thể dùng
+     even: chẵn 
+     odd: lẻ
+     step: 2n+1 */
+    color: pink;
+}
+/* tác động lên thẻ con thứ n tính từ dưới lên */
+p:nth-last-child(2){
+    /* tương tự */
+    color: yellow;
+}
+/* con duy nhất trong thẻ cha*/
+p:only-child{
+    color: darkgreen;
+}
+
+/* quan tâm đến kiểu loại */
+/* xuất hiện đầu tiên trong thẻ cha */
+h2:first-of-type{
+    color: blue;
+}
+/* xuất hiện cuối cùng trong thẻ cha */
+h2:last-of-type{
+    color: pink;
+}
+/* xuất hiện thứ n trong thẻ cha từ trên xuống */
+h3:nth-of-type(2){
+    color: yellowgreen;
+}
+/* tác động lên thẻ con thứ n tính từ dưới lên */
+h3:nth-last-of-type(3){
+    color: brown;
+}
+/* con duy nhất trong thẻ cha */
+h4:only-of-type{
+    color: aqua;
+}

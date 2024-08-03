@@ -1,0 +1,29 @@
+*{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.demo.demo4 {
+    color: red;
+}
+#line_3{
+    background-color: blue;
+}
+div > p{
+    font-style: italic;
+    text-transform: uppercase;
+}
+.demo, #line_3{
+    font-size: 25px;
+    color: darkturquoise;
+}
+
+h3 + h4{  /* hoặc tên class, id */
+    /* combinator: 
+     đứng sát ngay sau dùng: + */
+    background-color: brown;
+}
+
+div ~ div {
+    /* ~: chọn tất cả thẻ div đứng sau thẻ div  */
+    color: chartreuse;
+}

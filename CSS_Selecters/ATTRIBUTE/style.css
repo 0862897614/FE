@@ -1,0 +1,30 @@
+p[href]{
+    /* tác động lên thẻ a có thuộc tính href */
+    color: yellow;
+}
+
+[target="_blank"] {/* tác động chính xác */
+    color: rgb(255, 0, 0);
+}
+[title~="phamnghia.vn"]{
+    /* tìm tất cả những thẻ title có value: phamnghia.vn */
+    background-color: cadetblue;
+}
+[title*="phamnghia.vn"]{
+    /* tìm tất tất cả những thẻ title có chứa chuỗi: phamnghia.vn nằm trong value */
+    font-style: italic;
+}
+
+[title |="pic"]{
+    /* chỉ áp dụng cho từ pic và pic- */
+    color: pink;
+}
+
+[title ^="pic"]{
+    /* chỉ áp dụng cho từ pic đứng đầu không quan tâm đằng sau */
+    background-color: aqua;
+}
+[title $="6"]{
+    /* dùng cho thẻ title với 1 ký tự cuối là 6 */
+    font-style: italic;
+}

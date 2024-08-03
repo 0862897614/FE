@@ -1,0 +1,29 @@
+*{
+    font-size: 20px;
+}
+/* hover: di chuột qua */
+.line_1:hover{
+    color: red;
+}
+/* active: khi nhấn giữ chuột */
+#line_2:active{
+    color: blue;
+}
+/* link: khi người dùng chưa click vào link */
+.click_me:link{
+    color: chocolate;
+}
+/* visited: khi người dùng đã click vào link */
+.click_me:visited{
+    color: red;
+}
+/* empty: không có nội dung */
+.div_elm:empty{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+}
+/* target: trên URL sẽ tạo hastag tương ứng cho phần tử có id đó*/
+h2:target{
+    color: darkgreen;
+}
