@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: red;
+}
+.box1{
+    border: 10px dotted blue;
+}   
+.box2{
+    border: 20px dashed black;
+    margin-left: 160px;
+}
+.box3{
+    border: 30px solid yellowgreen;
+    margin-left: 340px;
+}
+.box4{
+    border: 30px double yellowgreen;
+    margin-left: 539px;
+}

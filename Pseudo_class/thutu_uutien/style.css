@@ -1,0 +1,23 @@
+*{
+    /* universal selector */
+ color: green;
+}
+
+h1 {
+    /* element selector */
+    color: red;
+}
+
+.test{
+    /* class - pseudo class */
+    color: pink;
+}
+#demo{
+    /* id */
+    color: aqua;
+}
+/* inline */
+*{
+    /* !important */
+ color: yellow !important;
+}

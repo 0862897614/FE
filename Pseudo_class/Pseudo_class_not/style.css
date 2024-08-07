@@ -1,0 +1,8 @@
+.top:not(p){
+    /* loại trừ thẻ p */
+    background-color: yellow;
+}
+.top:not(:first-of-type){
+    /* loại trừ thẻ đầu tiên theo thể loại */
+    color: red;
+}

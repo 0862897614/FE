@@ -1,0 +1,26 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+}
+/* margincollapse: hiện tượng chồng lặp thuộc tính margin khi 2 phần tử liền kề 
+cùng thiết lập margin với phần tử còn lại theo chiều dọc (sẽ lấy margin lớn hơn)*/
+.box1{
+    margin-bottom: 50px;
+}
+.box2{
+    margin-top: 70px;
+}
+/* chiều ngang không bị hiện tượng này  */
+
+.item{
+    background-color: yellow;
+    border: 2px solid red;
+} 
+
+.item1{
+    margin-right: 20px;
+}
+.item2{
+    margin-left: 10px;
+}
