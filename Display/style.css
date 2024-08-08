@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #000;
+    background-color: rgb(212, 168, 208);
+    color: aliceblue;
+    border-radius: 999px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+}
+a:hover{
+    background-color: #8c8595;
+    color: rgb(89, 30, 82);
+}
+
+a:visited{
+    background-color: red;
+}
