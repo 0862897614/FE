@@ -1,0 +1,17 @@
+h3{
+    letter-spacing: 20px; 
+    /* khoảng cách giữa các ký tự */
+}
+h4{
+    word-spacing: 20px; /* khoảng cách giữa các từ */
+}
+p{
+    /* text align: căn giữa text với box chứa nó */
+    text-align: justify; /* căn đều 2 bên */
+}
+.home{
+    text-align: center; /* vì nó là thẻ inline nên nó căn vào giữa, 
+        vì box chứa nó chỉ vừa khớp element */
+        display: block; 
+        /* phải chuyển về status block mí căn giữa */
+}

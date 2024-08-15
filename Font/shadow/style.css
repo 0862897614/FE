@@ -1,0 +1,16 @@
+h1{
+    margin: 40px;
+    /* text-shadow: ngang, dọc, độ nhòe, màu; */
+    text-shadow: 0px -20px 0px rgba(255, 0, 0, 0.212);
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    overflow: hidden; 
+    /* ẩn đi những phần thừa ngoài box */
+    overflow: scroll; 
+     /* lúc nào cũng tạo thanh cuộn cả 2 bên */
+    overflow: auto;
+    /* tự động tạo thanh cuộn: dài thì tạo còn ngắn thì thôi, và tự bẻ gãy  */
+}

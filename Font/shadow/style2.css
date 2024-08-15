@@ -1,0 +1,31 @@
+.box{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    overflow: auto;
+    overscroll-behavior: contain;
+    /* thanh cuộn chỉ lăn trong conten box ,
+     mặc định là auto nó sẽ lăn cả bên ngoài khi tới điểm giới hạn*/
+}
+
+/* scroll tối ưu hóa */
+/* width */
+.box::-webkit-scrollbar{
+    width: 20px;
+}
+
+/* Track */
+.box::-webkit-scrollbar-track{
+    background: rgb(43, 12, 169);
+    border-radius: 99px;
+}
+/* Handle */
+.box::-webkit-scrollbar-thumb{
+    background: rgb(255, 0, 211);
+    border-radius: 99px;
+}
+/* Handle on hover */
+.box::-webkit-scrollbar-thumb:hover{
+    background: darkgreen;
+}

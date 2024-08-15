@@ -1,0 +1,22 @@
+strong{
+    text-decoration: none;
+    text-decoration: line-through; /* gạch giữa */
+    text-decoration: underline; /* gạch chân */
+    text-decoration: overline;/* gạch đầu */
+    text-decoration: underline dotted blue 10px;
+}
+.line1{
+    /* thụt lề*/
+    text-indent: 40px;
+    text-transform: uppercase;  /* viết hoa toàn bộ*/
+
+    
+}
+.line2{
+    text-indent: -40px;
+    text-transform: lowercase;  /* viết thường toàn bộu*/
+    
+}
+.line3{
+    text-transform: capitalize;  /* viết hoa chữ cái đầu*/
+}

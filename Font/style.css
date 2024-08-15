@@ -1,0 +1,17 @@
+body{
+    /* nhúng font */
+    font-family: 'Inter', sans-serif;
+}
+P{
+    font-weight: bold; 
+    /*bold: dày lên 1 cấp */
+    line-height: 1.5;
+}   
+h1 {
+    font-weight: lighter;
+    /* lighter: mỏng đi 1 cấp */
+    background-color: blue;
+    height:  150px;
+    line-height: 150px;
+    text-align: center;
+}

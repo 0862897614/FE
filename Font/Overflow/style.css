@@ -1,0 +1,14 @@
+h1{
+    background-color: pink;
+    width: 300px;
+    white-space: nowrap;/* nowrap: không xuống trên 1 dòng, pre: giữ nguyên trạng thái code, nomarl: mặc định*/
+    overflow: hidden; /* ẩn nội dung thừa */
+    text-overflow: ellipsis;/* tạo dấu ... */
+}
+h2{
+    background-color: aqua;
+    overflow: hidden;
+    -webkit-line-clamp: 3; /* hiển thị ... ở dòng thứ 3 */
+    -webkit-box-orient: vertical; /* chiều dọc */
+    display: -webkit-box;
+}

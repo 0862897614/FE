@@ -1,0 +1,8 @@
+li{
+    list-style: none; /* bỏ các dấu chấm của thẻ li */
+    margin-top: 4px;
+}
+.fa-brands, .fa-solid {
+    color: pink;
+    margin-right: 4px;
+}
