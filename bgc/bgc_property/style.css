@@ -1,0 +1,25 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 10px solid palegreen;
+    padding: 20px;
+    margin: 90px;
+    outline: 10px dotted pink;
+    outline-offset: 20px;
+}
+.box1{
+    background-color: pink;
+    background-image: url(./img/11.jpg);
+    background-position: center; /* vị trí bắt đầu đặt ảnh */
+    background-size: cover; /* điều chỉnh kích thước ảnh, cover: giãn ra theo chiếm theo khung hình */
+    background-repeat: no-repeat;  /* không lặp lại */
+    background-origin: border-box;  /*  gốc của ảnh ở phần border */
+    background-clip: content-box;  /*  ảnh đổ từ phần content vào trong */
+
+}
+.box2{
+    
+/* cú pháp shorthand: */
+/* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+background: plum url(./img/11.jpg) center / cover no-repeat border-box content-box;
+}

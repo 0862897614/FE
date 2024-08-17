@@ -1,0 +1,13 @@
+.box{
+    width: 500px;
+    height: 400px; 
+    /* hãy sửa theo tỉ lệ 1:1 vd: v500 h500 */
+    border: 5px dotted yellow;
+    background-image: url(./img/cunxinh.jpg);
+    background-size: contain; 
+    /*  ảnh co lại theo khung hình nếu thiếu sẽ bị lặp lại */
+    background-size: cover;
+    /*  ảnh giãn ra theo khung hình nếu thừa sẽ cắt đi */
+    background-position: top right;
+    /* position: vị trí bắt đầu ảnh, có thể sử dụng %, thay cho các đơn vị top, left,.. */
+}

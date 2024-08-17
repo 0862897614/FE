@@ -1,0 +1,18 @@
+.h1_st {
+    color: firebrick; 
+    /* nếu trình duyệt không có thì quay về thuộc tính này */
+}
+
+/* supports: kiểm tra xem trình duyệt có hỗ trợ 2 thuộc tính trên không nếu có thì mới thực hiện đoạn lệnh dưới */
+@supports (background-clip: text) or (-webkit-background-clip: text){ 
+    .h1_st {
+        color: transparent; /* màu chữ trong suốt */
+        background-color: aqua;
+        background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+        background-clip: text; 
+        /* đổ màu phần element */
+        -webkit-background-clip: text;
+    }
+}
+/* bgc-lip: quy định vùng đổ nền, conten-box, padding-box, margin-box */
+/* bgc-origin: quy định gốc bức ảnh đặt vị trí nào, conten-box, padding-box, margin-box */

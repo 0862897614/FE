@@ -1,0 +1,12 @@
+.box{
+    height: 100vh;
+    background-image: url(./img/la.png) , url(./img/nen.jpg);
+    /* background-repeat: no-repeat;  */
+    /* không lặp lại */
+    /* background-repeat: repeat-y; */
+    /* lập theo trục y */
+    /* background-repeat: repeat-x; */
+    /* lập theo trục x */
+    background-repeat: repeat;
+    /* lập lại mặc định */
+}

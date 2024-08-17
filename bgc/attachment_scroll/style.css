@@ -1,0 +1,25 @@
+.box {
+    height: 300px;
+    background-image: url(./img/OIP\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* fixed: ảnh giữ nguyên còn box di chuyển
+    mặc định: scroll lăn cả box và ảnh */
+
+}
+
+.test_local {
+    margin-top: 40px;
+    color: white;
+    height: 200px;
+    width: 70%;
+    overflow: auto;
+    background-image: url(./img/OIP\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    /* nội dung cuộn theo bgc */
+    background-position: center;
+    /* vị trí ảnh bắt đầu từ giữa */
+}

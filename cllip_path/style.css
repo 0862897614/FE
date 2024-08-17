@@ -1,0 +1,13 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: url(./img/11.jpg) center/cover ;
+    /* clip-path: circle(50% at 50% 50%);   */
+    /* ẩn viền xung quanh của hình tròn */
+    /* clip-path: inset(20px 30px); */
+    /* clip-path: inset(20px 5px round 20px 50px); */
+    /* inset: ẩn viền xung quanh hình chữ nhật, round: bo góc */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    border-radius: 15px;
+    margin: 0 auto;
+}
