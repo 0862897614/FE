@@ -1,0 +1,18 @@
+.container {
+    background: cyan;
+    height: 150px;
+    display: flex;
+    /* overflow: auto; */
+}
+.box{
+    border: 1px solid red;
+    background-color: pink;
+    width: 30%;
+    /* flex-shrink: 0; */
+    /* 0: không bị co lại
+       1: giá trị mặc định */
+}
+
+.box1, .box3{
+    /* flex-shrink: 0; */
+}

@@ -1,0 +1,13 @@
+.box {
+    background: purple;
+    width: 30%;
+    border: 1px solid greenyellow;
+}
+.container {
+    background: pink;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row-reverse; */
+    /* viết tắt */
+    flex-flow: wrap row-reverse;
+}

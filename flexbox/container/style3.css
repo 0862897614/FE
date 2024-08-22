@@ -1,0 +1,27 @@
+.box {
+    background: pink;
+    border: 1px solid red;
+}
+/* main axis: trục ngang */
+/* cross axis: trục dọc */
+/* row: mặc định */
+/* row-reverse: sẽ bị đảo ngược và đổi hướng của trục main axis */
+/* column-reverse: đảo hướng từ dưới lên */
+.container {
+    height: 200px;
+    background: green;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+
+    /* fld: colum: hướng của 2 trục thay đổi mains --> dọc, cross --> ngang */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+
+
+}

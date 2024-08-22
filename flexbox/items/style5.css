@@ -1,0 +1,16 @@
+.container {
+    height: 150px;
+    background: cyan;
+    display: flex;
+    align-items: flex-start;
+    /* lign-items: tác động lên tất cả các phần tử container(cha) */
+}
+.box {
+    background-color: pink;
+    border: 1px solid greenyellow;
+}
+
+.box2, .box3{
+    align-self: center;
+    /* align-self: tác động riêng rẽ từng phần tử, tác động cho phần tử item(con)  */
+}

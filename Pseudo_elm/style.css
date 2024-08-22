@@ -1,0 +1,43 @@
+p::first-line {
+  color: red;
+  /* first-line: chọn dòng đầu tiên tác động, 0 áp dụng với thẻ inline */
+}
+span {
+  display: inline-block;
+  /* cần chuyển về inline-block or block */
+}
+
+span::first-line {
+  color: blue;
+  /* thẻ inline */
+}
+
+p::first-letter {
+  /* tác động lên chữ cái đầu của từ */
+  font-size: 25px;
+  color: blue;
+  font-style: italic;
+}
+p::selection {
+  /* tác động lên vùng bôi đen */
+  background-color: brown;
+  color: #fff;
+}
+li::marker {
+    /* tác động lên các điểm đánh dấu của thẻ li */
+  font-size: 20px;
+  color: red;
+}
+.box::before {
+    content: "First";
+    color: red;
+    background-color: blueviolet    ;
+}
+.box::after{
+    content: "";/* bắt buộc phải có */
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 999px;
+    background-color: pink;
+}

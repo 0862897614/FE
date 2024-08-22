@@ -1,0 +1,26 @@
+/*  nowrap: mặc định 
+    wrap: xuống hàng
+    wrap-reverse: xuống dòng + đảo ngược*/
+
+.container {
+    height: 400px;
+    display: flex;
+    background: cyan;
+    /* flex-wrap: nowrap;  */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: center; */
+    /* align-content: flex-end; */
+    align-content: space-around;
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+}
+
+.box {
+    width: 30%;
+    background-color: pink;
+    border: 1px solid greenyellow;
+}

@@ -1,0 +1,30 @@
+.mes-bottom a {
+  font-size: 2rem;
+  color: hsl(205, 93%, 53%);
+  position: fixed; /* fix cứng vị trí */
+  bottom: 20px;
+  right: 20px;
+}
+.nav {
+  background-color: #555555;
+  position: fixed;
+  /* kéo giãn khung 2 bên, chỉ áp dụng khi 0 xét chiều rộng */
+  top: 0;
+  left: 0;
+  right: 0;
+  /* cách 2 */
+  /* inset: 0px 10px 80%; */
+}
+
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  color: aqua;
+  padding: 20px;
+  text-decoration: none;
+}
+
+h1{
+    margin-top: 51px;
+}

@@ -1,0 +1,36 @@
+.box{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    /* căn giữa text ở các khối */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background: yellow;
+    position: relative;
+}
+.content{
+    /* relative: thẻ cha */
+    /* position: relative;  */
+    background: cyan;
+    width: 400px;
+    margin: 40px;
+}
+.box1{
+    background: green;
+}
+.box2{
+     /* absolute: thẻ con nằm trên mặt phẳng khác, kế thừa thẻ cha gần nhất, nếu không có thì lấy gốc webpage */
+    position: absolute;
+    background: blue;
+    left: 0;
+    top: 0;
+}
+.box3{
+    background: red;
+}
+h1{
+    background: purple;
+}

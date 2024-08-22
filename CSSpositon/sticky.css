@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+.content {
+    width:400px;
+    height: 500px;
+    background: cyan;
+    overflow: auto;
+    margin: 0 auto;
+}
+h2 {
+    background: yellow;
+    position: sticky; /* tạo hiệu ứng bám dính */
+    top: 0;
+}

@@ -1,0 +1,14 @@
+.container {
+    background: cyan;
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+}
+.box{
+    /* width: 30%; */
+    flex-basis: 30%; 
+    /* khi thay đổi fld:colum thì flex-basic: sẽ chuyển từ chiều rộng thành chiều cao vì nó ăn theo trục main axis */
+    background-color: green;
+    border: 1px solid red;
+
+}

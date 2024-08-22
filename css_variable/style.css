@@ -1,0 +1,66 @@
+/* khai báo .root hoặc html sẽ áp dụng cho toàn trang */
+/* chú ý: khi khai báo phần tử nào thì sẽ áp dụng cho phần tử  đó
+và các cấp thấp hơn (con của nó) */
+:root {
+    /* khai báo biến */
+    --box-height: 100px;
+    --box-color:rgb(255, 192, 248);
+    --box-margin-bottom:10px;
+}
+
+.box1{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: var(--box-margin-bottom);
+}
+
+.box2{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: var(--box-margin-bottom);
+}
+
+.box3{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: var(--box-margin-bottom);
+}
+
+.detail {
+    --p_font-size:30px;
+    --span_color: pink;
+    font-size: var(--p_font-size);
+}
+/* giá trị backup của biến */
+ .content {
+    --background-box: pink;
+ }
+ .box4{
+    height: var(--box-height);
+    background-color: var(--background-box, green);
+    /* nếu biến không hoạt động sẽ chuyển qua giá trị dự phòng green */
+ }
+
+span {
+    color: var(--span_color);
+}
+
+
+/* .box1{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+}
+
+.box2{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+}
+
+.box3{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+} */
+
