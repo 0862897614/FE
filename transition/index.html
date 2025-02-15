@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+<style>
+    .btn {
+        width: 200px;
+        height: 40px;
+        background: green;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        /* transition: 0.5s; */
+        /* thời gian chuyển tiếp: bắt buộc phải có*/
+        /* transition-duration: 1s; */
+        /* áp dụng cho thuộc tính */
+        /* transition-property: background-color, color; */
+        /* transition-delay: 3s; */
+        /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+        /* ease: chậm từ từ rồi nhanh */
+        /* linear: chậm và nhanh đều */
+        /* ease-in: chậm rồi nhanh */
+        /* ease-out: nhanh rồi chậm */
+        /* ease-in-out: chậm rồi nhanh rồi chậm */
+        /* cubic-bezier: tùy chỉnh */
+
+        /* cú pháp shorthand */
+        /* transition: all ease-in-out 5s 0.5s; */
+
+        transition: color 1s ease-in-out, background-color 1s ease-in-out 0.5s ;
+    }
+    .btn:hover {
+        background: red;
+        color: #000;
+    }
+
+    /* note:
+    - display:none không hỗ trợ animation
+    - không tác động transition vào phần hover, active,...  phải đặt ở phần tử chính vì nếu đặt phần tử con thì chỉ tác dụng đầu vào*/
+
+</style>
+<body>
+    <button class="btn">Hover me, please</button>
+</body>
+</html>

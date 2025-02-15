@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widthand initial-scale=1.0">
+    <title>Media Queries</title>
+</head>
+<body>
+    <style>
+    body {
+      background: cyan;
+    }
+    /* 1. [yellow] Thiết bị di động: 319px — 480px */
+    @media (min-width: 319px) and (max-width: 479.98px) {
+      body {
+        background: yellow;
+      }
+    }
+
+    /* 2. [chocolate] iPads và máy tính bảng: 480px — 1200px */
+    @media (min-width: 480px) and (max-width: 1199.98px) {
+      body {
+        background: chocolate;
+      }
+    }
+
+    /* 3. [green] Laptop: 1200px — 1600px */
+    @media (min-width: 1200px) and (max-width: 159.98px) {
+      body {
+        background: green;
+      }
+    }
+
+    /* 4. [purple] Máy tính để bàn: 1600px trở lên */
+    @media (min-width: 1600px) {
+      body {
+        background: purple;
+      }
+    }
+
+
+    /* 5. điều hướng áp dụng cho màn hình xoay ngang */
+/* 
+    @media (orientation: landscape) {
+      body {
+        background: red;
+      }
+        
+    } */
+  </style>
+    
+</body>
+</html>

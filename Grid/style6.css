@@ -1,0 +1,36 @@
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: blue;
+}
+.box3 {
+    background-color: green;
+}
+.box4 {
+    background-color: yellow;
+}
+.box5 {
+    background-color: orange;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 50px 100px 200px;
+    background-color: rgb(171, 22, 179);
+    height: 100vh;
+
+    /* align-content: start;
+    align-content: center;
+    align-content: space-around; */
+
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}

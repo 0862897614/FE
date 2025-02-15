@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    gap: 3px;
+    /* grid-template-columns: repeat(5, 1fr); */
+   
+    /* khi màn hình đủ lớn, sẽ tự động sinh ra các grid cell trống */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* khi màn hình đủ lớn, sẽ tự  lấp đầy */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+    background: blue;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

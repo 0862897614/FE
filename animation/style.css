@@ -1,0 +1,156 @@
+    .box1 {
+        margin: 100px auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-right: 10px solid black;
+        border-left: 10px solid black;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        animation: identifier 1s linear infinite ; 
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        
+        /* name - duration: bắt buộc phải có */
+        /* animation-name: identifier; */
+
+        /* duration: thời gian chuyển động */
+        /* animation-duration: 1s; */
+
+        /* timing-function: kiểu chuyển động */
+        /* animation-timing-function: ease-in-out; */
+
+        /* delay: thời gian chờ trước khi chuyển động */
+        /* animation-delay: 1s; */
+
+        /* iteration-count: số lần lặp */
+        /* animation-iteration-count: infinite; */
+
+        /* direction: chiều chuyển động */
+
+        /* quay ngược chiều */
+        /* animation-direction: reverse; */
+
+        /* quay xuôi rồi ngược */
+        /* animation-direction: alternate; */
+        
+        /* quay ngược rồi xuôi */
+        /* animation-direction: alternate-reverse;
+         */
+
+
+    }
+
+    @keyframes identifier {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .box2 {
+
+        margin: 100px auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: red;
+        animation: move 5s 2S linear 2 both;
+
+        /* forwards: giữ giá trị cuối cùng của phần tử */
+        /* animation-fill-mode: forwards; */
+
+        /* backwards: giữ giá trị ban đầu của phần tử */
+        /* animation-fill-mode: backwards; */
+
+        /* both: giữ cả giá trị ban đầu và cuối cùng của phần tử */
+        /* animation-fill-mode: both; */
+
+    }
+
+    @keyframes move {
+        from {
+            transform: translateX(100px);
+        }
+
+        to {
+            transform: translateX(300px);
+        }
+    }
+
+    .box3 {
+        margin: 100px auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: brown;
+        animation: move_around 5s 2s ease-in-out infinite;
+        margin-bottom: 200px;
+    }   
+
+    @keyframes move_around {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(100px, 0);
+        }
+
+        50% {
+            transform: translate(100px, 100px);
+        }
+
+        75% {
+            transform: translate(0, 100px);
+        }
+
+        100% {
+            transform: translate(0, 0);
+        }
+
+
+    }
+    
+    .box4 {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        --size: 200px;
+        --first-color:blue;
+        --second-color: yellow;
+        position: relative;
+        
+    }
+
+    h4 {
+        color: white;
+        z-index: 1;
+    }
+
+    .box4::after {
+        background-color: rgb(56, 17, 65);
+        position: absolute;
+        content: "";
+        margin: 150px auto;
+        width: var(--size);
+        height: var(--size);
+        border-radius: 50%;
+        border: 20px solid var(--first-color);
+        border-top: 20px solid var(--second-color);
+        animation: rotate 1s linear infinite alternate-reverse;
+        box-shadow: 0 0 10px 5px rgba(148, 20, 20, 0.5);
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    

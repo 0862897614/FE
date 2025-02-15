@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vận dụng skew</title>
+  </head>
+
+  <style>
+    body {
+      background-color: black;
+    }
+
+    .header {
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      padding-top: 100px;
+      position: relative;
+    }
+
+    .header::after {
+      content: "";
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #001bfe;
+      background: linear-gradient(7deg, #001bfe 0%, #01ffff 80%);
+      background: -webkit-linear-gradient(7deg, #001bfe 0%, #01ffff 80%);
+      background: -moz-linear-gradient(7deg, #001bfe 0%, #01ffff 80%);
+      z-index: -1;
+      rotate: 5deg;
+      /* padding: 200px 3px; */
+      scale: 5.5;
+      /* transform: translate(-30px, -80px); */
+      
+    }
+  </style>
+  <body>
+    <header class="header">
+      <h1>I am <strong class="header__heading">Graphics Designer</strong></h1>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+</head>
+<style>
+    .box{
+        margin:100px auto;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 3rem;
+
+        /* xoay */
+        /* transform: rotate(45deg);*/
+        /* gõ tắt */
+        /* rotate: 45deg;  */
+
+        /* tăng - giảm kích thước  */
+        /* transform: scale(1.5, 0.5); */
+
+        /* nghiêng */
+        /* x: cạnh bên - y: cạnh trên  */
+        /* transform: skew(30deg, 30deg); */
+
+        /* di chuyển */
+
+        /* transform: translate(100px, 100px); */
+        /* translate: -50%; */
+
+        /* kết hợp */
+        transform: rotate(45deg) scale(1.5, 0.5) skew(30deg, 30deg) translate(100px, 100px);
+
+        /* lưu ý
+        nó không đẩy các phần tử xung quanh --> bị đè
+        các trình duyệt cũ --> dùng prefix */
+    }
+</style>
+<body>
+    <div class="box">abc</div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quidem id dolorum illo provident, explicabo iste? Maiores quia officia nulla. Quaerat magni excepturi recusandae labore ut ad aut quia corrupti?
+</body>
+</html>

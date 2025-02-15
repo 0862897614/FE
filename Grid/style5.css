@@ -1,0 +1,37 @@
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: blue;
+}
+.box3 {
+    background-color: green;
+}
+.box4 {
+    background-color: yellow;
+}
+.box5 {
+    background-color: orange;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+   
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 50px 100px 200px;
+    /* mặc định */
+    /* align-items: stretch;  */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* tương tự align-items */
+    justify-items: left;
+    /* justify-items: end; */
+}

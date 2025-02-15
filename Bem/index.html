@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEM</title>
+</head>
+<body>
+    <!-- 
+    BEM (Block Element Modifier)
+    1.block
+        .header, footer, .card, .card-list,...
+    2.element
+        block__element: footer__logo, card__title, card__content,...
+    3.modifier
+        block__element--modifier: header__logo--small, card__title--big,...
+        block--modifier: .modal--open, .modal--close,...
+--> 
+        <!-- TH1 -->
+        <div class="card">
+            <div class="card__image"></div>
+            <div class="card__title"></div>
+            <div class="card__content"></div>
+            <div class="card__button">
+                <button class="card__button--primary">Primary</button>
+                <button class="card__button--secondary">Secondary</button>
+            </div>
+        </div>
+
+        <!-- TH2 -->
+        <div class="card-list">
+            <!-- item 1 -->
+            <div class="card-item">
+            <div class="card-item__image"></div>
+            <div class="card-item__title"></div>
+            <div class="card-item__content"></div>
+            <div class="card-item__button">
+                <button class="card-item__button--primary">Primary</button>
+                <button class="card-item__button--secondary">Secondary</button>
+            </div>
+
+            <!-- item 2 -->
+            <div class="card-item">
+            <div class="card-item__image"></div>
+            <div class="card-item__title"></div>
+            <div class="card-item__content"></div>
+            <div class="card-item__button">
+                <button class="card-item__button--primary">Primary</button>
+                <button class="card-item__button--secondary">Secondary</button>
+            </div>
+
+            </div>
+        </div>
+</body>
+</html>

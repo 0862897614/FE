@@ -1,0 +1,46 @@
+.box1,
+.box4,
+.box5 {
+    background-color: rgb(19, 153, 97);
+}
+
+.box2, .box3 {
+    background-color: rgb(25, 43, 206);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    /* kích thước */
+    /* grid-template-columns: 100px calc(100% - 100px) ;
+    grid-template-rows: 50px 100px ; */
+
+    /* grid-row-gap: 10px;
+    grid-column-gap: 20px; */
+
+    /* gap:khoảng cách */
+    /* gap: 20px 50px; */
+    
+    /* repeat */
+    /* grid-template-columns: 100px repeat(3, 50px);
+    grid-template-rows: 50px repeat(4, 100px); */
+
+    /* chia theo trọng số fr */
+    /* grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 2fr 1fr 4fr; */
+
+    /* giá trị auto */
+    /* grid-template-columns: 100px auto; */
+
+    /* min-max */
+    grid-template-columns: minmax(150px, 300px) minmax(200px , auto);
+    grid-template-rows: repeat(2, minmax(50px, 80px));
+    
+    /* chỉ định chiều cao cho các hàng */
+    grid-auto-rows: 50px; 
+}
